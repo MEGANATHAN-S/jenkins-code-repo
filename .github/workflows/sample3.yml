@@ -1,11 +1,13 @@
-name: hellow world
+name: Hello World
+
 on: push
-jobs: 
+
+jobs:
     my-jobs:
-       name: print hellow world
-       runs-on: ubuntu-latest
-       steps:
-           -name: print hellow world
-           run: echo"hellow world"
-           -name: print name
-           run: echo"Meganathan"
+        name: Print Hello World
+        runs-on: ubuntu-latest
+        steps:
+            - name: Print Hello World
+              run: echo "Hello World"
+            - name: Print Name
+              run: echo "Meganathan"
