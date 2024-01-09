@@ -1,0 +1,12 @@
+name: hellow world
+on: push
+jobs: 
+    my-jobs:
+       name: print hellow world
+       runs-on: ubuntu-latest
+       steps:
+           -name: print hellow world
+           run: echo"hellow world"
+           -name: print name
+           run: echo"Meganathan"
+
