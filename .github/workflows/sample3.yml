@@ -3,8 +3,8 @@ name: Hello World
 on: push
 
 jobs:
-    my-jobs:
-        name: Print Hello World
+  my-jobs:
+    name: Print Hello World
         runs-on: ubuntu-latest
         steps:
             - name: Print Hello World

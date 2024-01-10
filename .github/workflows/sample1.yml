@@ -1,0 +1,13 @@
+name: Test auto
+on: push
+
+jobs:
+  my-jobs:
+
+    name: Test automation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Value
+        run: echo "Hello World.."
+
+
